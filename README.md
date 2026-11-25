@@ -58,12 +58,6 @@ The failure rate excludes pending transactions because they do not yet have a fi
 
 **Failure rate = Failed transactions ÷ (Failed + Successful transactions)**
 
-## Treatment of Pending Transactions
-
-The dataset contained 263 pending transactions at the time of capture. These transactions were retained in the analysis and reported separately but excluded from the failure-rate calculation because their final outcomes had not been confirmed.
-
-In a real payment environment, pending transactions would require further confirmation or reconciliation before being classified as successful or failed.
-
 ### Where Do Failures Happen?
 
 - **Provider C** recorded the highest failure rate at 11.4%.
@@ -154,6 +148,10 @@ These recommendations are investigation priorities, not guaranteed solutions. Th
 PxPay is a fictional Nigerian fintech company. The dataset is synthetic and does not represent actual customer transactions or the operational performance of a real financial institution.
 
 This independent portfolio project was developed to demonstrate practical data analysis, business problem-solving and data storytelling skills.
+
+The dataset contained 263 pending transactions at the time of capture. These transactions were retained in the analysis and reported separately but excluded from the failure-rate calculation because their final outcomes had not been confirmed.
+
+In a real payment environment, pending transactions would require further confirmation or reconciliation before being classified as successful or failed.
 
 ---
 
